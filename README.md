@@ -4,7 +4,7 @@
 > A production-minded, **LangGraph**-powered research agent that searches the web, scrapes sources in parallel, writes a grounded report, and **critiques and re-researches its own work** until the draft clears a quality bar — with full cost tracing, automated evaluation, reliability, tests, and a **live deployment**.
 
 <p align="center">
-  <a href="https://researchmind-8wxf.onrender.com/"><img alt="Live Demo" src="https://img.shields.io/badge/🚀_Live_Demo-Render-46E3B7"></a>
+  <a href="https://multi-agent-system-qtmk.onrender.com/"> </a>
   <img alt="Python" src="https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white">
   <img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-State_Machine-1C3C3C">
   <img alt="Groq" src="https://img.shields.io/badge/Groq-LLaMA_3.3_70B-F55036">
@@ -397,7 +397,7 @@ MIT — free to use, modify, and extend.
 
 ---
 
-<p align="center"><i>A grounded, self-refining, observable multi-agent research system — LangGraph · Groq · FastAPI. <a href="https://researchmind-8wxf.onrender.com/">Live demo →</a></i></p>
+<p align="center"><i>A grounded, self-refining, observable multi-agent research system — LangGraph · Groq · FastAPI. <a href=https://multi-agent-system-qtmk.onrender.com/">Live demo →</a></i></p>
 =======
 # multi-agent-system
 >>>>>>> a47fea9672315ab984be4ab362daebc24cf0598b
