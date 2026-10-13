@@ -1,0 +1,22 @@
+# Render Blueprint — native Python deploy (recommended).
+# Commit this file, then in the Render dashboard: New → Blueprint → pick this repo.
+# Set GROQ_API_KEY and TAVILY_API_KEY as secrets when prompted (sync: false keeps
+# them out of the repo).
+#
+# To deploy with Docker instead, delete this file's `runtime: python` +
+# build/startCommand lines and use:  runtime: docker
+services:
+  - type: web
+    name: researchmind
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: GROQ_API_KEY
+        sync: false # set in the Render dashboard (secret)
+      - key: TAVILY_API_KEY
+        sync: false # set in the Render dashboard (secret)
