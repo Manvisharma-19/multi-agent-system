@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧠 ResearchMind — Self-Refining Multi-Agent Research System
 
 > A production-minded, **LangGraph**-powered research agent that searches the web, scrapes sources in parallel, writes a grounded report, and **critiques and re-researches its own work** until the draft clears a quality bar — with full cost tracing, automated evaluation, reliability, tests, and a **live deployment**.
@@ -397,3 +398,6 @@ MIT — free to use, modify, and extend.
 ---
 
 <p align="center"><i>A grounded, self-refining, observable multi-agent research system — LangGraph · Groq · FastAPI. <a href="https://researchmind-8wxf.onrender.com/">Live demo →</a></i></p>
+=======
+# multi-agent-system
+>>>>>>> a47fea9672315ab984be4ab362daebc24cf0598b
