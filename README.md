@@ -13,7 +13,7 @@
   <img alt="License" src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
-**🔗 Live demo:** https://researchmind-8wxf.onrender.com/
+**🔗 Live demo:** https://multi-agent-system-qtmk.onrender.com/
 _(free tier — first load after idle may take ~30–60s to wake)_
 
 ---
